@@ -4,8 +4,8 @@ var router = express.Router();
 router.get("/contact", function (req, res) {
   res.render("contact.ejs", {
     phone: 434234234,
-    address: "вул. Рибна, 23",
-    name: "Пупкін С.О.",
+    address: "Developers Str 21",
+    name: "Natalie",
   });
 });
 
